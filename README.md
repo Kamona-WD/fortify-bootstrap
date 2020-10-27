@@ -4,7 +4,7 @@ Use laravel/ui front-end bootstrap scaffolding with laravel/fortify.
 
 [![License](https://img.shields.io/github/license/Kamona-WD/fortify-bootstrap)](https://github.com/Kamona-WD/fortify-bootstrap/blob/master/LICENSE.md)
 [![Release](https://img.shields.io/github/release/Kamona-WD/fortify-bootstrap)](https://github.com/Kamona-WD/fortify-bootstrap/releases)
-[![Total Downloads](https://img.shields.io/packagist/dt/kamona/fortify-bootstrap.svg?style=flat-square)](https://packagist.org/packages/kamona/fortify-bootstrap)
+[![Total Downloads](https://img.shields.io/packagist/dt/kamona/fortify-bootstrap.svg)](https://packagist.org/packages/kamona/fortify-bootstrap)
 
 
 ## Note
