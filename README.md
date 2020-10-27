@@ -70,4 +70,12 @@ Layouts `views/layouts`.
 
 Profile `views/profile/edit.blade.php`.
 
-Dashboard `views/home.blade.php`.
+## Screens
+
+| Screens                                       |
+| --------------------------------------------- |
+| ![Profile](/screens/profile.png)              |
+| ![Two Factor Access](/screens/two-factor.png) |
+| ![Login](/screens/login.png)                  |
+| ![Register](/screens/register.png)            |
+| ![Home](/screens/home.png)                    |
