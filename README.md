@@ -1,6 +1,6 @@
 # Fortify Bootstrap
 
-Use laravel/ui front-end bootstrap scafolding with laravel/fortify.
+Use laravel/ui front-end bootstrap scaffolding with laravel/fortify.
 
 [![License](https://img.shields.io/github/license/Kamona-WD/fortify-bootstrap)](https://github.com/Kamona-WD/fortify-bootstrap/blob/master/LICENSE.md)
 [![Release](https://img.shields.io/github/release/Kamona-WD/fortify-bootstrap)](https://github.com/Kamona-WD/fortify-bootstrap/releases)
