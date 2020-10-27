@@ -1,0 +1,35 @@
+{
+  "name": "kamona/fortify-bootstrap",
+  "description": "Front-end scafolding for laravel/fortify based on bootstrap",
+  "keywords": [
+    "laravel",
+    "fortify",
+    "bootstarp",
+    "ui"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Kamona-WD/fortify-bootstrap",
+  "authors": [
+    {
+      "name": "Kamona",
+      "email": "ak3849909@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "laravel/fortify": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FortifyBootstrap\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "FortifyBootstrap\\FortifyBootstrapServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
