@@ -6,17 +6,27 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-body">
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+
                         <form method="POST" action="/two-factor-challenge">
                             @csrf
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" id="pills-code-tab" data-toggle="pill" href="#pills-code"
+                                    <a class="nav-link active" id="pills-code-tab" data-bs-toggle="pill" href="#pills-code"
                                         role="tab" aria-controls="pills-code" aria-selected="true">
                                         {{ __('Use an authentication code') }}
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" id="pills-recovery-tab" data-toggle="pill" href="#pills-recovery"
+                                    <a class="nav-link" id="pills-recovery-tab" data-bs-toggle="pill" href="#pills-recovery"
                                         role="tab" aria-controls="pills-recovery" aria-selected="false">
                                         {{ __('Use a recovery code') }}
                                     </a>
@@ -28,7 +38,7 @@
                                     <div class="mb-3">
                                         {{ __('Please confirm access to your account by entering the authentication code provided by your authenticator application.') }}
                                     </div>
-                                    <div class="form-group row">
+                                    <div class="row mb-3">
                                         <label for="code"
                                             class="col-md-4 col-form-label text-md-right">{{ __('Code') }}</label>
 
@@ -43,7 +53,7 @@
                                     <div class="mb-3">
                                         {{ __('Please confirm access to your account by entering one of your emergency recovery codes.') }}
                                     </div>
-                                    <div class="form-group row">
+                                    <div class="row mb-3">
                                         <label for="recovery_code"
                                             class="col-md-4 col-form-label text-md-right">{{ __('Recovery Code') }}</label>
 
@@ -54,7 +64,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form-group row">
+                            <div class="row">
                                 <div class="col-md-8 offset-md-4">
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}

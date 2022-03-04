@@ -11,13 +11,13 @@
   "homepage": "https://github.com/Kamona-WD/fortify-bootstrap",
   "authors": [
     {
-      "name": "Kamona",
+      "name": "Ahmed Kamel",
       "email": "ak3849909@gmail.com",
       "role": "Developer"
     }
   ],
   "require": {
-    "laravel/fortify": "^1.5"
+    "laravel/fortify": "^1.11"
   },
   "autoload": {
     "psr-4": {
